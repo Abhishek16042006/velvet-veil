@@ -1,0 +1,16 @@
+{
+  "name": "velvet-veil-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Velvet Veil — Privacy Messenger and Landing Page with Post-Quantum PQXDH Security",
+  "license": "AGPL-3.0-only",
+  "scripts": {
+    "dev:web": "pnpm --filter web dev",
+    "dev:server": "pnpm --filter server dev",
+    "build:web": "pnpm --filter web build",
+    "build:server": "pnpm --filter server build",
+    "test:crypto": "pnpm --filter crypto test",
+    "build": "pnpm --filter web build && pnpm --filter server build",
+    "test": "pnpm --filter crypto test"
+  }
+}

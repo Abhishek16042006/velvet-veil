@@ -1,0 +1,7 @@
+packages:
+  - 'web'
+  - 'server'
+  - 'crypto'
+
+allowBuilds:
+  esbuild: true

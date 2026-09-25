@@ -1,0 +1,53 @@
+# Environment files
+.env
+.env.local
+.env.*.local
+*.env
+
+# Secrets & Keys - NEVER COMMIT
+*.jks
+*.keystore
+serviceAccountKey.json
+*.p8
+*.pem
+*.key
+*.cert
+*_private_key*
+
+# Platform & Firebase Credentials
+google-services.json
+GoogleService-Info.plist
+firebase-debug.log
+
+# Node dependencies & builds
+node_modules/
+dist/
+.turbo/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Flutter / Dart builds (for mobile client)
+.dart_tool/
+build/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+
+# Database artifacts
+*.sqlite
+*.sqlite3
+*.db
+dumps/
+*.sql.gz
+
+# OS & Editor files
+.DS_Store
+Thumbs.db
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+.idea/
